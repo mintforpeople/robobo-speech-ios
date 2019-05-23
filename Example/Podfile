@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'robobo-speech-ios_Example' do
+  pod 'robobo-speech-ios', :path => '../'
+
+  target 'robobo-speech-ios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
