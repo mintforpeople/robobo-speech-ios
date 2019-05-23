@@ -1,5 +1,5 @@
 import XCTest
-import robobo-speech-ios
+import robobo_speech_ios
 
 class Tests: XCTestCase {
     
