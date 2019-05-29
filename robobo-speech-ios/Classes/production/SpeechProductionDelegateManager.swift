@@ -7,10 +7,13 @@
 //
 
 import robobo_framework_ios_pod
+import robobo_remote_control_ios
 
 public class SpeechProductionDelegateManager: DelegateManager {
-    override init() {
+    var remote: IRemoteControlModule!
+    init(_ remote:IRemoteControlModule) {
         super.init()
+        self.remote = remote
     }
     
     func notifyEndOfSpeech(){
@@ -19,5 +22,10 @@ public class SpeechProductionDelegateManager: DelegateManager {
                 del.onEndOfSpeech()
             }
         }
+        
+        let s:Status = Status("UNLOCK-TALK")
+        
+        
+        remote.postStatus(s)
     }
 }

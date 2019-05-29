@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>1.IRemoteControlModule</key>
+	<string>robobo_remote_control_ios.RemoteControlModule</string>
 	<key>4.ISpeechProductionModule</key>
 	<string>robobo_speech_ios.SpeechProductionModuleImplementation</string>
 </dict>

@@ -16,6 +16,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		82711CCACE5BC0F65A036771 /* Pods_robobo_speech_ios_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB949331355BCDFB9C6C65F5 /* Pods_robobo_speech_ios_Example.framework */; };
 		A042A5382296E7A000435BF4 /* modules.plist in Resources */ = {isa = PBXBuildFile; fileRef = A042A5372296E7A000435BF4 /* modules.plist */; };
+		A06EE671229EEC5500D2F9AA /* ProxyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06EE670229EEC5400D2F9AA /* ProxyTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		A042A5372296E7A000435BF4 /* modules.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = modules.plist; sourceTree = "<group>"; };
+		A06EE670229EEC5400D2F9AA /* ProxyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProxyTest.swift; sourceTree = "<group>"; };
 		A07E481DBBE26B518C3575E9 /* Pods-robobo-speech-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-robobo-speech-ios_Example.release.xcconfig"; path = "Target Support Files/Pods-robobo-speech-ios_Example/Pods-robobo-speech-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B9AF6AF77320055064995AA8 /* Pods-robobo-speech-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-robobo-speech-ios_Example.debug.xcconfig"; path = "Target Support Files/Pods-robobo-speech-ios_Example/Pods-robobo-speech-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DB949331355BCDFB9C6C65F5 /* Pods_robobo_speech_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_robobo_speech_ios_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				A06EE670229EEC5400D2F9AA /* ProxyTest.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				A042A5372296E7A000435BF4 /* modules.plist */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -298,11 +301,13 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-robobo-speech-ios_Example/Pods-robobo-speech-ios_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/robobo-framework-ios-pod/robobo_framework_ios_pod.framework",
+				"${BUILT_PRODUCTS_DIR}/robobo-remote-control-ios/robobo_remote_control_ios.framework",
 				"${BUILT_PRODUCTS_DIR}/robobo-speech-ios/robobo_speech_ios.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/robobo_framework_ios_pod.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/robobo_remote_control_ios.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/robobo_speech_ios.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06EE671229EEC5500D2F9AA /* ProxyTest.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

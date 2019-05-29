@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'robobo-speech-ios'
-    s.version          = '0.1.0'
+    s.version          = '0.1.1'
     s.summary          = 'Robobo sensing modules'
     s.swift_version    = '4.2'
     
@@ -40,4 +40,6 @@ Pod::Spec.new do |s|
     s.public_header_files = 'Pod/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'robobo-framework-ios-pod', '~>0.1.0'
+    s.dependency 'robobo-remote-control-ios', '~>0.1.0'
+
 end

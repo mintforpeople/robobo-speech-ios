@@ -9,25 +9,38 @@
 import UIKit
 import robobo_framework_ios_pod
 import robobo_speech_ios
+import robobo_remote_control_ios
 
 class ViewController: UIViewController, RoboboManagerDelegate {
 
     var manager : RoboboManager!
     var speechModule :ISpeechProductionModule!
+    var remote :IRemoteControlModule!
+    var proxy: ProxyTest!
+    var text :String = "Los robots del futuro serán inteligentes,o sea, podrán realizar diferentes tareas en plan de forma autónoma. Actualmente, los estudiantes y todos los que quieran estar preparados para este futuro próximo, deberían entender cómo funciona este nuevo tipo de robótica. Por lo tanto, el futuro de la robótica está en la educación."
     override func viewDidLoad() {
         super.viewDidLoad()
         manager = RoboboManager()
+        proxy = ProxyTest()
         manager.addFrameworkDelegate(self)
         do{
             try manager.startup()
 
-            let module = try manager.getModuleInstance("ISpeechProductionModule")
+            var module = try manager.getModuleInstance("ISpeechProductionModule")
             speechModule = module as? ISpeechProductionModule
+            
+            module = try manager.getModuleInstance("IRemoteControlModule")
+            remote = module as? IRemoteControlModule
         }catch{
             print(error)
         }
         
-        speechModule.sayText("Hola mundo")
+        remote.registerRemoteControlProxy(proxy)
+        var args: [String:String] = [:]
+        args["text"]=text
+        var c: Command = Command("TALK",0,args)
+        remote.queueCommand(c)
+        //speechModule.sayText()
         
     }
 

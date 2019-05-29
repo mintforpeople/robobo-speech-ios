@@ -1,6 +1,6 @@
 {
   "name": "robobo-speech-ios",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Robobo sensing modules",
   "swift_versions": "4.2",
   "description": "Robobo sensing library, includes IMU and Touch modules",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/mintforpeople/robobo-speech-ios.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"
@@ -23,6 +23,9 @@
   "public_header_files": "Pod/Classes/**/*.h",
   "dependencies": {
     "robobo-framework-ios-pod": [
+      "~>0.1.0"
+    ],
+    "robobo-remote-control-ios": [
       "~>0.1.0"
     ]
   },

@@ -7,12 +7,21 @@
 //
 
 import robobo_framework_ios_pod
+import robobo_remote_control_ios
+
 import AVFoundation
 // https://www.appcoda.com/text-to-speech-ios-tutorial/
-class SpeechProductionModuleImplementation: NSObject,ISpeechProductionModule{
+class SpeechProductionModuleImplementation: NSObject, ISpeechProductionModule, ICommandExecutor{
+    
+    func executeCommand(_ c: Command, _ rcmodule: IRemoteControlModule) {
+        sayText(c.getParameters()["text"]!)
+    }
     
     
-  
+    
+    var manager: RoboboManager!
+    
+    var remote: IRemoteControlModule!
     
     var delegateManager: SpeechProductionDelegateManager!
     
@@ -22,7 +31,8 @@ class SpeechProductionModuleImplementation: NSObject,ISpeechProductionModule{
     
     func sayText(_ text: String) {
         speechUtterance = AVSpeechUtterance(string:text)
-        speechUtterance.rate = AVSpeechUtteranceMaximumSpeechRate / 4.0
+        speechUtterance.rate = AVSpeechUtteranceDefaultSpeechRate
+        speechUtterance.pitchMultiplier = 0.5
         speechUtterance.voice = AVSpeechSynthesisVoice(language: "es_ES")
         speechSynth.speak(speechUtterance)
 
@@ -30,9 +40,20 @@ class SpeechProductionModuleImplementation: NSObject,ISpeechProductionModule{
     
     func startup(_ manager: RoboboManager) throws {
         manager.log("Startup Speech")
-        delegateManager = SpeechProductionDelegateManager()
+        
+        self.manager = manager
+        
+        do {
+            let module = try manager.getModuleInstance("IRemoteControlModule")
+            remote = module as? IRemoteControlModule
+        } catch  {
+            print(error)
+        }
+        
+        delegateManager = SpeechProductionDelegateManager(remote)
         speechSynth = AVSpeechSynthesizer()
         speechSynth.delegate = self
+        remote.registerCommand("TALK", self)
     }
     
     func shutdown() throws {
@@ -46,8 +67,11 @@ class SpeechProductionModuleImplementation: NSObject,ISpeechProductionModule{
         return "v0.1"
     }
     
+    
 
 }
+
+
 
 extension SpeechProductionModuleImplementation: AVSpeechSynthesizerDelegate {
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
