@@ -38,9 +38,11 @@ class ViewController: UIViewController, RoboboManagerDelegate {
         remote.registerRemoteControlProxy(proxy)
         var args: [String:String] = [:]
         args["text"]=text
-        var c: Command = Command("TALK",0,args)
-        remote.queueCommand(c)
-        //speechModule.sayText()
+        //var c: Command = Command("TALK",0,args)
+        //remote.queueCommand(c)
+        speechModule.setLanguage("en_US")
+        speechModule.sayText("test primero",.priority_low)
+        speechModule.sayText(text, .priority_low)
         
     }
 

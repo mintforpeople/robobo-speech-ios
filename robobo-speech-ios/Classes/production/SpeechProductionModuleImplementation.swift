@@ -13,8 +13,12 @@ import AVFoundation
 // https://www.appcoda.com/text-to-speech-ios-tutorial/
 class SpeechProductionModuleImplementation: NSObject, ISpeechProductionModule, ICommandExecutor{
     
+    
+    
+    var speechUtterance: AVSpeechUtterance!
+
     func executeCommand(_ c: Command, _ rcmodule: IRemoteControlModule) {
-        sayText(c.getParameters()["text"]!)
+        sayText(c.getParameters()["text"]!, .priority_low)
     }
     
     
@@ -25,16 +29,23 @@ class SpeechProductionModuleImplementation: NSObject, ISpeechProductionModule, I
     
     var delegateManager: SpeechProductionDelegateManager!
     
-    var speechUtterance: AVSpeechUtterance!
+    
     var speechSynth: AVSpeechSynthesizer!
     var locale:String = "es_ES"
     
-    func sayText(_ text: String) {
+    func sayText(_ text: String, _ priority: SpeechPriority) {
+    
         speechUtterance = AVSpeechUtterance(string:text)
         speechUtterance.rate = AVSpeechUtteranceDefaultSpeechRate
         speechUtterance.pitchMultiplier = 0.5
-        speechUtterance.voice = AVSpeechSynthesisVoice(language: "es_ES")
+        speechUtterance.voice = AVSpeechSynthesisVoice(language: self.locale)
+        if ((priority == .priority_high)){
+            speechSynth.stopSpeaking(at: AVSpeechBoundary.word)
+            
+        }
+        
         speechSynth.speak(speechUtterance)
+        
 
     }
     
@@ -67,7 +78,9 @@ class SpeechProductionModuleImplementation: NSObject, ISpeechProductionModule, I
         return "v0.1"
     }
     
-    
+    func setLanguage(_ language: String) {
+        self.locale = language
+    }
 
 }
 

@@ -9,7 +9,10 @@
 import robobo_framework_ios_pod
 
 public protocol ISpeechProductionModule: IModule {
+    
     var delegateManager: SpeechProductionDelegateManager! {get}
 
-    func sayText(_ text: String)
+    func sayText(_ text: String, _ priority:SpeechPriority)
+    
+    func setLanguage (_ language: String)
 }
