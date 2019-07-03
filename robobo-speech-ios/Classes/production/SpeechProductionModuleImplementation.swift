@@ -17,7 +17,7 @@ class SpeechProductionModuleImplementation: NSObject, ISpeechProductionModule, I
     
     var speechUtterance: AVSpeechUtterance!
 
-    func executeCommand(_ c: Command, _ rcmodule: IRemoteControlModule) {
+    func executeCommand(_ c: RemoteCommand, _ rcmodule: IRemoteControlModule) {
         sayText(c.getParameters()["text"]!, .priority_low)
     }
     

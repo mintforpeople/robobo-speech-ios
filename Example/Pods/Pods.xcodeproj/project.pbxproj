@@ -7,52 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04927F5C3E7AAD1FADD4C2B5C9FAD656 /* RemoteCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916ABE8849236B33E3E706842A191DB2 /* RemoteCommand.swift */; };
 		04BE075E58A7A4D809821DA3651B9BA5 /* robobo-framework-ios-pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5105E7AAFD4AB8AC8005B9C6BD6AECF /* robobo-framework-ios-pod-dummy.m */; };
 		06C0B28BAEA4EAFEA1B2866271623862 /* Pods-robobo-speech-ios_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C136E392E3114F79D78362C0F5032E93 /* Pods-robobo-speech-ios_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A1E6981AB501A460C5384CD49DE3FB5 /* CommandQueueProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FFE32556409F6ABB704CAAE9A5BE8 /* CommandQueueProcessor.swift */; };
 		0D230EC3DABDB8EA4FEBEA92928780DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74957EA403A0400DF3AD31421249875 /* Foundation.framework */; };
-		19EDA09FEBAAE5EF1721D09CDDE5C43E /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FF6B6E64C7F9E203C204317718449B /* Command.swift */; };
-		1BE5C6341FC2435C99E291FD58F595DD /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5743513D2E3E01DF47D11A7F29D09F /* Response.swift */; };
-		25867725C19C353E1D9CA46C063425E0 /* RemoteModuleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6086D12EB1A8AEF9F3D33F2F7EBD49 /* RemoteModuleError.swift */; };
+		2357C98BF67E8D95C60F1AB8503DB57C /* robobo-remote-control-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699830900985B5924A7D58A4D6495233 /* robobo-remote-control-ios-dummy.m */; };
+		269006EED8688BA8AA229773CD73E23C /* IRemoteControlModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE7CDCD4190748BAF76E5FAAAB29BC2 /* IRemoteControlModule.swift */; };
 		28B4A5AF9498782FD2BC426A5051CE6B /* Pods-robobo-speech-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D35E1676318D2B0370EF3F23C0889D69 /* Pods-robobo-speech-ios_Tests-dummy.m */; };
 		2A7B2188D29795F0BE1E155375A44789 /* RoboboManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEBAA1CD1752B6572C618D2FA630252 /* RoboboManagerState.swift */; };
 		2FD3E9FCDAFB9590CDBF34A7979C4606 /* SpeechProductionDelegateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC2B69CE79C3AB8E6C4C73BF550AE63 /* SpeechProductionDelegateManager.swift */; };
-		316C20D90921A03A3BBDAFA587004D4B /* RemoteControlModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35584584EFFA4EBEA4C9BE697D0FC6A /* RemoteControlModule.swift */; };
-		336F806B05C34C417E71B5FAE1E1B7F9 /* RoboboJSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBFDA68618BF403A6EB88FA6250B3A7 /* RoboboJSONEncoder.swift */; };
-		37732269F96AA827AABD76A61A772034 /* IRemoteControlProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A6987E5F7623BFF6BECFC13BE32C1C /* IRemoteControlProxy.swift */; };
 		3EC8A445BA4A9C7E13BB8E142FEC04C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74957EA403A0400DF3AD31421249875 /* Foundation.framework */; };
-		45835C03A9120F332484A3EB6F0719BA /* ICommandExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A3F874B606A2FB29AFD623215764C /* ICommandExecutor.swift */; };
-		55266B1F616A1299D2CB2973228AF19C /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2940E7F12542592A5E16F0C4110344E1 /* Value.swift */; };
-		5D53B61C15049461D42F4F9E534AF8F4 /* IRemoteControlModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8066B305EB0E8631FB13E14D9EE17201 /* IRemoteControlModule.swift */; };
-		697073B5F5C6BA8698D783DF5B28551F /* CommandQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D69FC54D335B30C00FA7355A20EA5 /* CommandQueue.swift */; };
 		6D3E60C006706181D071672D4D767E53 /* RoboboManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5C8A4200F649FBE40FD78B7B50EB14 /* RoboboManager.swift */; };
 		6E540CB316A0E423DA880596516267B1 /* robobo-speech-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9010444D3CDC285831BE8538015C23C /* robobo-speech-ios-dummy.m */; };
 		746DD1CE75F98568A505656AF4E58F58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74957EA403A0400DF3AD31421249875 /* Foundation.framework */; };
 		763EA3D182839F9EAF4FEBF860297C62 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F03C4ED4897D8F3C6746F72DA89E4D /* Logger.swift */; };
-		8C8A7FE624D9439AD216B7A9BA60404C /* IRemoteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805C97BDD5B0D483AC8BFC5708E2C32C /* IRemoteDelegate.swift */; };
 		91E56956884D584399715FE28C508C2E /* ISpeechProductionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C32452C455975B619296439A286734 /* ISpeechProductionModule.swift */; };
+		95CD847D76036B15786BD63830A70C10 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A3302A5EDA0B6F74F002B6F68BAB51 /* Status.swift */; };
 		96AA74C4527F29FB98611583DB94155B /* IModuleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E019EAF43E23F94D6CF94C297A885F /* IModuleDelegate.swift */; };
+		9A132D832492AECACEEA5253D415708E /* CommandSanitizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E5BA923E3AA9A5CBAB83E81727BD38 /* CommandSanitizer.swift */; };
 		9DC537E82E672804E815BB4B32A36441 /* robobo_framework_ios_pod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEF3938A947B79FF17DBE8B6FF327FC /* robobo_framework_ios_pod.framework */; };
+		A0B6433D72181BE58E33595BF4D90D6F /* IRemoteControlProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D4B5B4F74D092EABB1DEF92C659C2F /* IRemoteControlProxy.swift */; };
 		A1C5FA0DB510D96E30B2E2B2430961C8 /* SpeechPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC18DBE6A92BA76E932AA37AB0A37C2 /* SpeechPriority.swift */; };
 		A2C0A96D3903F49A1464C4FD22826BC4 /* robobo-framework-ios-pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F02EF08D3FFEF8CF3005789CC7C475A /* robobo-framework-ios-pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF606463AF7D9193B364643FCF01E09C /* RoboboJSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3DFE53BE9AD2D452CACC47CA8CB63B /* RoboboJSONEncoder.swift */; };
 		B00224C4A399AF42BD5980E9E99D8358 /* Pods-robobo-speech-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C2B8CFBABD56F203B1353E71FFDC33 /* Pods-robobo-speech-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B018BC2D16F82F77CA67DC26FFDCA1B2 /* robobo-remote-control-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD2B9F0DD65E5993522C2765D423150 /* robobo-remote-control-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B018BC2D16F82F77CA67DC26FFDCA1B2 /* robobo-remote-control-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 789562BB8C5FB42EFAB29E268FF396B0 /* robobo-remote-control-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1AC51BB6D4F4799CE02681B61F1B43F /* RemoteModuleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6472010E9E789BC53C6AEA8CCF05755A /* RemoteModuleError.swift */; };
+		B2FD40ADDC231364072AAA461C2444BA /* RemoteControlModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4745D878AB597EC57F131E5274260757 /* RemoteControlModule.swift */; };
 		B7C9FF33406238A3CE24A5A19721DB66 /* ISpeechProductionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23DF1E2E81ED0C77707AC2311B97EC /* ISpeechProductionDelegate.swift */; };
 		B8D5988F1FDCE8DD5A9EAD236F655E3C /* robobo_remote_control_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7EB2CD18E593BBF501660C8E0CC5B7 /* robobo_remote_control_ios.framework */; };
 		BB4AECB522FF2673E243974D73532E31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74957EA403A0400DF3AD31421249875 /* Foundation.framework */; };
 		BC7C743744129828996D001477ABFCF7 /* RoboboManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A2D351C040BD2A5904496FF7E019D /* RoboboManagerDelegate.swift */; };
+		BD342C0865DE8D61DDE5C127010A613F /* ICommandExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB648AC38D3A32B2A2973C0ADF3E6A9 /* ICommandExecutor.swift */; };
 		C33AE855A8D8A41675AA85D4FE9126D7 /* IRoboboLogDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C75FE149ADF65E18A3FA15682A326CB /* IRoboboLogDelegate.swift */; };
 		C53DF9596546DF9A7C797518148D9D8C /* DelegateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E335195E671FA2BEAF07DE5C606FD3 /* DelegateManager.swift */; };
-		C9427C28C5B980549934D3D241FC79F4 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221E96C8412F946713038D7895C1D80D /* Status.swift */; };
 		CD211F0203F3A455001CF6C66858D3A3 /* FrameworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3397BD0FC2224954CBB96370E80D79D /* FrameworkError.swift */; };
+		CF39DB19D34069DFAE0D1058C82549AF /* IRemoteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FBEA343DB81B1F9F32CA18D1B5DC2 /* IRemoteDelegate.swift */; };
 		D4A1677BE054C9A98899A72927101F4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74957EA403A0400DF3AD31421249875 /* Foundation.framework */; };
 		E08685FE6AFA5D49D9A393A69BA69BEE /* robobo-speech-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ACF0C8C3B1DCF3E0862479D7F6A94D0 /* robobo-speech-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E619D7A0C04736D1D66C1069C08E65D9 /* robobo-remote-control-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FE065F483C22CC95BEF8D36E029E32 /* robobo-remote-control-ios-dummy.m */; };
+		E5D53FDD688A92ED18AC9E5647037F3C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3482B163B4036C4CCEFA5F9FF8351E /* Response.swift */; };
 		E7954BD15ADA269A7BCAF246B45ACDFD /* Pods-robobo-speech-ios_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D053D7FA016957D4D23F507EBF13A2FB /* Pods-robobo-speech-ios_Example-dummy.m */; };
-		E9A18755E408BA3274477EAA0C2AC2BF /* CommandSanitizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C8739E6DE96794535734A2D3742075 /* CommandSanitizer.swift */; };
 		EE6A096C465A2D5ADFBB387318DD061A /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA3F0471CDA05991C00A6EF54D65796 /* LogLevel.swift */; };
-		F536A672A04ED6F586F7EBA6AB731719 /* CommandQueueProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C699DEFA0312EE401F73B93AED31948 /* CommandQueueProcessor.swift */; };
+		F08CE197BD979253553E6D59864005DE /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887D6F8C694C16DCC7F25D0FC20AE817 /* Value.swift */; };
 		F5A7EC4FF6177739E8FB4387E85E4960 /* robobo_framework_ios_pod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEF3938A947B79FF17DBE8B6FF327FC /* robobo_framework_ios_pod.framework */; };
 		FCDBFA4BFDFA81B47D3DF75AD62E4DAE /* SpeechProductionModuleImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0715ECAD0718E2EA6FB95285FCB /* SpeechProductionModuleImplementation.swift */; };
+		FDCD5F84206CCCEA710C987D2B34E4DE /* CommandQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA7D225DA525FAD428AF67502DD3FCE /* CommandQueue.swift */; };
 		FEEDC777F872853C463F66411C3A7DB4 /* IModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB38451DE05BE84E56D49171419AB5 /* IModule.swift */; };
 /* End PBXBuildFile section */
 
@@ -110,81 +110,81 @@
 
 /* Begin PBXFileReference section */
 		045FDB7814F7B571D882A28B7468D885 /* robobo_remote_control_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = robobo_remote_control_ios.framework; path = "robobo-remote-control-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BD2B9F0DD65E5993522C2765D423150 /* robobo-remote-control-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "robobo-remote-control-ios-umbrella.h"; sourceTree = "<group>"; };
+		0C6BEE901E6A58EB805C7D68E2148326 /* robobo-remote-control-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "robobo-remote-control-ios.modulemap"; sourceTree = "<group>"; };
 		0E7EB2CD18E593BBF501660C8E0CC5B7 /* robobo_remote_control_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = robobo_remote_control_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8D2E7CFAF853CB68C87F52E78323FA /* Pods-robobo-speech-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-robobo-speech-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		10D7777E463C648EB9034CE03A8DB192 /* robobo-remote-control-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "robobo-remote-control-ios.xcconfig"; sourceTree = "<group>"; };
 		112A4C13A2D3B4C28C97C05CC1798853 /* robobo-framework-ios-pod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "robobo-framework-ios-pod.xcconfig"; sourceTree = "<group>"; };
-		1156ACB69324B6ADC9AE9082178024B8 /* robobo-remote-control-ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "robobo-remote-control-ios-Info.plist"; sourceTree = "<group>"; };
 		13CA8AAD6F3BD60422C400ABE45FDF86 /* robobo-speech-ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "robobo-speech-ios-Info.plist"; sourceTree = "<group>"; };
+		1C3DFE53BE9AD2D452CACC47CA8CB63B /* RoboboJSONEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoboboJSONEncoder.swift; path = "robobo-remote-control-ios/Classes/RoboboJSONEncoder.swift"; sourceTree = "<group>"; };
 		1CC4C575C3D3D75C4F36B53677641FC1 /* Pods-robobo-speech-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-robobo-speech-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20E019EAF43E23F94D6CF94C297A885F /* IModuleDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IModuleDelegate.swift; path = "robobo-framework-ios-pod/Classes/delegation/IModuleDelegate.swift"; sourceTree = "<group>"; };
-		221E96C8412F946713038D7895C1D80D /* Status.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Status.swift; path = "robobo-remote-control-ios/Classes/Status.swift"; sourceTree = "<group>"; };
 		27F03C4ED4897D8F3C6746F72DA89E4D /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = "robobo-framework-ios-pod/Classes/logger/Logger.swift"; sourceTree = "<group>"; };
-		2940E7F12542592A5E16F0C4110344E1 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = "robobo-remote-control-ios/Classes/Value.swift"; sourceTree = "<group>"; };
 		2CC18DBE6A92BA76E932AA37AB0A37C2 /* SpeechPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechPriority.swift; path = "robobo-speech-ios/Classes/production/SpeechPriority.swift"; sourceTree = "<group>"; };
+		2CE21E1079E94AE30421D845BE2A35B0 /* robobo-remote-control-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "robobo-remote-control-ios-prefix.pch"; sourceTree = "<group>"; };
 		2F02EF08D3FFEF8CF3005789CC7C475A /* robobo-framework-ios-pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "robobo-framework-ios-pod-umbrella.h"; sourceTree = "<group>"; };
+		38A3302A5EDA0B6F74F002B6F68BAB51 /* Status.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Status.swift; path = "robobo-remote-control-ios/Classes/Status.swift"; sourceTree = "<group>"; };
 		3A2A88CA002E1C158DE8DDDCEDBB16D5 /* robobo_speech_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = robobo_speech_ios.framework; path = "robobo-speech-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E6086D12EB1A8AEF9F3D33F2F7EBD49 /* RemoteModuleError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteModuleError.swift; path = "robobo-remote-control-ios/Classes/RemoteModuleError.swift"; sourceTree = "<group>"; };
+		42D4B5B4F74D092EABB1DEF92C659C2F /* IRemoteControlProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IRemoteControlProxy.swift; path = "robobo-remote-control-ios/Classes/IRemoteControlProxy.swift"; sourceTree = "<group>"; };
 		44C32452C455975B619296439A286734 /* ISpeechProductionModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISpeechProductionModule.swift; path = "robobo-speech-ios/Classes/production/ISpeechProductionModule.swift"; sourceTree = "<group>"; };
+		4745D878AB597EC57F131E5274260757 /* RemoteControlModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteControlModule.swift; path = "robobo-remote-control-ios/Classes/RemoteControlModule.swift"; sourceTree = "<group>"; };
 		4ACF0C8C3B1DCF3E0862479D7F6A94D0 /* robobo-speech-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "robobo-speech-ios-umbrella.h"; sourceTree = "<group>"; };
 		4B2A2D351C040BD2A5904496FF7E019D /* RoboboManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoboboManagerDelegate.swift; path = "robobo-framework-ios-pod/Classes/RoboboManagerDelegate.swift"; sourceTree = "<group>"; };
 		5062256E706902F14AC68A2674485074 /* Pods-robobo-speech-ios_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-robobo-speech-ios_Example-Info.plist"; sourceTree = "<group>"; };
 		52D59214BB652E5A3D4ABA9982A70676 /* robobo-speech-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "robobo-speech-ios.modulemap"; sourceTree = "<group>"; };
 		5DA97F1A838C61B70563F9E87BBA4BD7 /* Pods-robobo-speech-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-robobo-speech-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6472010E9E789BC53C6AEA8CCF05755A /* RemoteModuleError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteModuleError.swift; path = "robobo-remote-control-ios/Classes/RemoteModuleError.swift"; sourceTree = "<group>"; };
 		67A74DD979A549E1360C6041E4CA7017 /* robobo-speech-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "robobo-speech-ios.xcconfig"; sourceTree = "<group>"; };
+		699830900985B5924A7D58A4D6495233 /* robobo-remote-control-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "robobo-remote-control-ios-dummy.m"; sourceTree = "<group>"; };
+		6CE7CDCD4190748BAF76E5FAAAB29BC2 /* IRemoteControlModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IRemoteControlModule.swift; path = "robobo-remote-control-ios/Classes/IRemoteControlModule.swift"; sourceTree = "<group>"; };
 		6E742043EEA63B6828750E74F61128D5 /* Pods-robobo-speech-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-robobo-speech-ios_Tests.modulemap"; sourceTree = "<group>"; };
-		744EAD457813BDE93CC6E1EDB00096B8 /* robobo-remote-control-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "robobo-remote-control-ios-prefix.pch"; sourceTree = "<group>"; };
+		75E5BA923E3AA9A5CBAB83E81727BD38 /* CommandSanitizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommandSanitizer.swift; path = "robobo-remote-control-ios/Classes/CommandSanitizer.swift"; sourceTree = "<group>"; };
 		76C2B8CFBABD56F203B1353E71FFDC33 /* Pods-robobo-speech-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-robobo-speech-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7BBFDA68618BF403A6EB88FA6250B3A7 /* RoboboJSONEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoboboJSONEncoder.swift; path = "robobo-remote-control-ios/Classes/RoboboJSONEncoder.swift"; sourceTree = "<group>"; };
-		7C699DEFA0312EE401F73B93AED31948 /* CommandQueueProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommandQueueProcessor.swift; path = "robobo-remote-control-ios/Classes/CommandQueueProcessor.swift"; sourceTree = "<group>"; };
+		789562BB8C5FB42EFAB29E268FF396B0 /* robobo-remote-control-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "robobo-remote-control-ios-umbrella.h"; sourceTree = "<group>"; };
 		7EEBAA1CD1752B6572C618D2FA630252 /* RoboboManagerState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoboboManagerState.swift; path = "robobo-framework-ios-pod/Classes/RoboboManagerState.swift"; sourceTree = "<group>"; };
-		7F484E076AE06E6BBD644F102ED09812 /* robobo-remote-control-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "robobo-remote-control-ios.modulemap"; sourceTree = "<group>"; };
-		805C97BDD5B0D483AC8BFC5708E2C32C /* IRemoteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IRemoteDelegate.swift; path = "robobo-remote-control-ios/Classes/IRemoteDelegate.swift"; sourceTree = "<group>"; };
-		8066B305EB0E8631FB13E14D9EE17201 /* IRemoteControlModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IRemoteControlModule.swift; path = "robobo-remote-control-ios/Classes/IRemoteControlModule.swift"; sourceTree = "<group>"; };
 		81501A85F8D84143CC0A49BB63AA74E2 /* Pods-robobo-speech-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-robobo-speech-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		85C108BA3E9DE470CCDEA8568690B279 /* robobo-framework-ios-pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "robobo-framework-ios-pod-Info.plist"; sourceTree = "<group>"; };
-		86A6987E5F7623BFF6BECFC13BE32C1C /* IRemoteControlProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IRemoteControlProxy.swift; path = "robobo-remote-control-ios/Classes/IRemoteControlProxy.swift"; sourceTree = "<group>"; };
+		887D6F8C694C16DCC7F25D0FC20AE817 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = "robobo-remote-control-ios/Classes/Value.swift"; sourceTree = "<group>"; };
 		892D91B186F6DAA94C8CB4286E8E90A5 /* Pods-robobo-speech-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-robobo-speech-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8BDB38451DE05BE84E56D49171419AB5 /* IModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IModule.swift; path = "robobo-framework-ios-pod/Classes/IModule.swift"; sourceTree = "<group>"; };
 		8C43C98D3D07B1B8E3BBDFC884384BB9 /* Pods_robobo_speech_ios_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_robobo_speech_ios_Example.framework; path = "Pods-robobo-speech-ios_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C75FE149ADF65E18A3FA15682A326CB /* IRoboboLogDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IRoboboLogDelegate.swift; path = "robobo-framework-ios-pod/Classes/logger/IRoboboLogDelegate.swift"; sourceTree = "<group>"; };
 		8EC2B69CE79C3AB8E6C4C73BF550AE63 /* SpeechProductionDelegateManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechProductionDelegateManager.swift; path = "robobo-speech-ios/Classes/production/SpeechProductionDelegateManager.swift"; sourceTree = "<group>"; };
+		916ABE8849236B33E3E706842A191DB2 /* RemoteCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteCommand.swift; path = "robobo-remote-control-ios/Classes/RemoteCommand.swift"; sourceTree = "<group>"; };
 		98C2FEBA720604B9A748B2FE840A4499 /* Pods-robobo-speech-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-robobo-speech-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9A3859FD7807BF5DFC5D8672E4DE2D59 /* Pods-robobo-speech-ios_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-robobo-speech-ios_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DEF3938A947B79FF17DBE8B6FF327FC /* robobo_framework_ios_pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = robobo_framework_ios_pod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A21D69FC54D335B30C00FA7355A20EA5 /* CommandQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommandQueue.swift; path = "robobo-remote-control-ios/Classes/CommandQueue.swift"; sourceTree = "<group>"; };
 		A35151A6CB8041A3227FDF0F2C6FB93C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A74957EA403A0400DF3AD31421249875 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A8FEF408CE9C0B2664E3A1358FF525BE /* Pods-robobo-speech-ios_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-robobo-speech-ios_Tests-Info.plist"; sourceTree = "<group>"; };
+		AAA7D225DA525FAD428AF67502DD3FCE /* CommandQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommandQueue.swift; path = "robobo-remote-control-ios/Classes/CommandQueue.swift"; sourceTree = "<group>"; };
 		ADFF90EAD58D752CB6B315C2659E0427 /* robobo_framework_ios_pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = robobo_framework_ios_pod.framework; path = "robobo-framework-ios-pod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF23DF1E2E81ED0C77707AC2311B97EC /* ISpeechProductionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISpeechProductionDelegate.swift; path = "robobo-speech-ios/Classes/production/ISpeechProductionDelegate.swift"; sourceTree = "<group>"; };
+		B2346FFA0B29C4FBDF5C5A1CB4F3ADF2 /* robobo-remote-control-ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "robobo-remote-control-ios-Info.plist"; sourceTree = "<group>"; };
 		B3397BD0FC2224954CBB96370E80D79D /* FrameworkError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameworkError.swift; path = "robobo-framework-ios-pod/Classes/FrameworkError.swift"; sourceTree = "<group>"; };
 		B9010444D3CDC285831BE8538015C23C /* robobo-speech-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "robobo-speech-ios-dummy.m"; sourceTree = "<group>"; };
-		BA1A3F874B606A2FB29AFD623215764C /* ICommandExecutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ICommandExecutor.swift; path = "robobo-remote-control-ios/Classes/ICommandExecutor.swift"; sourceTree = "<group>"; };
 		BBA3F0471CDA05991C00A6EF54D65796 /* LogLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogLevel.swift; path = "robobo-framework-ios-pod/Classes/logger/LogLevel.swift"; sourceTree = "<group>"; };
 		BFDC858162E3E288D9AD5FE639C6E489 /* robobo-speech-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "robobo-speech-ios-prefix.pch"; sourceTree = "<group>"; };
 		C136E392E3114F79D78362C0F5032E93 /* Pods-robobo-speech-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-robobo-speech-ios_Example-umbrella.h"; sourceTree = "<group>"; };
 		C26F14BDF6B7808206E9B2B6F423EFB4 /* robobo-framework-ios-pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "robobo-framework-ios-pod.modulemap"; sourceTree = "<group>"; };
 		C5105E7AAFD4AB8AC8005B9C6BD6AECF /* robobo-framework-ios-pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "robobo-framework-ios-pod-dummy.m"; sourceTree = "<group>"; };
 		C7E335195E671FA2BEAF07DE5C606FD3 /* DelegateManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateManager.swift; path = "robobo-framework-ios-pod/Classes/delegation/DelegateManager.swift"; sourceTree = "<group>"; };
+		CC3482B163B4036C4CCEFA5F9FF8351E /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = "robobo-remote-control-ios/Classes/Response.swift"; sourceTree = "<group>"; };
+		CFB648AC38D3A32B2A2973C0ADF3E6A9 /* ICommandExecutor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ICommandExecutor.swift; path = "robobo-remote-control-ios/Classes/ICommandExecutor.swift"; sourceTree = "<group>"; };
 		D053D7FA016957D4D23F507EBF13A2FB /* Pods-robobo-speech-ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-robobo-speech-ios_Example-dummy.m"; sourceTree = "<group>"; };
-		D0C8739E6DE96794535734A2D3742075 /* CommandSanitizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommandSanitizer.swift; path = "robobo-remote-control-ios/Classes/CommandSanitizer.swift"; sourceTree = "<group>"; };
 		D101866BC724E6C67AAB4DBE6A9A1CFD /* Pods-robobo-speech-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-robobo-speech-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D30A3346964EBF04A63D09372FA630DF /* robobo-remote-control-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "robobo-remote-control-ios.xcconfig"; sourceTree = "<group>"; };
 		D35E1676318D2B0370EF3F23C0889D69 /* Pods-robobo-speech-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-robobo-speech-ios_Tests-dummy.m"; sourceTree = "<group>"; };
-		D3FE065F483C22CC95BEF8D36E029E32 /* robobo-remote-control-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "robobo-remote-control-ios-dummy.m"; sourceTree = "<group>"; };
 		DC5C8A4200F649FBE40FD78B7B50EB14 /* RoboboManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoboboManager.swift; path = "robobo-framework-ios-pod/Classes/RoboboManager.swift"; sourceTree = "<group>"; };
-		DF5743513D2E3E01DF47D11A7F29D09F /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = "robobo-remote-control-ios/Classes/Response.swift"; sourceTree = "<group>"; };
 		E15CF0715ECAD0718E2EA6FB95285FCB /* SpeechProductionModuleImplementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechProductionModuleImplementation.swift; path = "robobo-speech-ios/Classes/production/SpeechProductionModuleImplementation.swift"; sourceTree = "<group>"; };
-		E35584584EFFA4EBEA4C9BE697D0FC6A /* RemoteControlModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteControlModule.swift; path = "robobo-remote-control-ios/Classes/RemoteControlModule.swift"; sourceTree = "<group>"; };
 		E3B6CFA9D23011C93AC3465A8F65FE42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E450266D0C197051B3C5885056DB85A8 /* Pods-robobo-speech-ios_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-robobo-speech-ios_Example.modulemap"; sourceTree = "<group>"; };
-		E4FF6B6E64C7F9E203C204317718449B /* Command.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Command.swift; path = "robobo-remote-control-ios/Classes/Command.swift"; sourceTree = "<group>"; };
+		E55FBEA343DB81B1F9F32CA18D1B5DC2 /* IRemoteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IRemoteDelegate.swift; path = "robobo-remote-control-ios/Classes/IRemoteDelegate.swift"; sourceTree = "<group>"; };
 		E5F7928AE83D03F0AB0D131E3B3291AD /* Pods_robobo_speech_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_robobo_speech_ios_Tests.framework; path = "Pods-robobo-speech-ios_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC86E538CA947C28980FDC394A3F5D5 /* robobo-speech-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "robobo-speech-ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EDE92AAA324931FD7E2AA08EBD98A1B7 /* Pods-robobo-speech-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-robobo-speech-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F4D788CF5E401F1D37672E1CC56588A4 /* robobo-framework-ios-pod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "robobo-framework-ios-pod-prefix.pch"; sourceTree = "<group>"; };
+		F77FFE32556409F6ABB704CAAE9A5BE8 /* CommandQueueProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommandQueueProcessor.swift; path = "robobo-remote-control-ios/Classes/CommandQueueProcessor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,20 +234,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11A3471EEF9F319F936F83845D6CC155 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F484E076AE06E6BBD644F102ED09812 /* robobo-remote-control-ios.modulemap */,
-				D30A3346964EBF04A63D09372FA630DF /* robobo-remote-control-ios.xcconfig */,
-				D3FE065F483C22CC95BEF8D36E029E32 /* robobo-remote-control-ios-dummy.m */,
-				1156ACB69324B6ADC9AE9082178024B8 /* robobo-remote-control-ios-Info.plist */,
-				744EAD457813BDE93CC6E1EDB00096B8 /* robobo-remote-control-ios-prefix.pch */,
-				0BD2B9F0DD65E5993522C2765D423150 /* robobo-remote-control-ios-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/robobo-remote-control-ios";
-			sourceTree = "<group>";
-		};
 		16B3E9D8816E27E65996C08B88EE2A82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -394,32 +380,23 @@
 			isa = PBXGroup;
 			children = (
 				8DE68330FB633990083A4FD04E136E59 /* robobo-framework-ios-pod */,
-				BE2ADB5FF039D4A06EE10145C60D5AE4 /* robobo-remote-control-ios */,
+				E81A147DE4A6E7675C5C90A20B5DA891 /* robobo-remote-control-ios */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		BE2ADB5FF039D4A06EE10145C60D5AE4 /* robobo-remote-control-ios */ = {
+		B6C2213F3F56B5D28C64D9CC3ACB2664 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E4FF6B6E64C7F9E203C204317718449B /* Command.swift */,
-				A21D69FC54D335B30C00FA7355A20EA5 /* CommandQueue.swift */,
-				7C699DEFA0312EE401F73B93AED31948 /* CommandQueueProcessor.swift */,
-				D0C8739E6DE96794535734A2D3742075 /* CommandSanitizer.swift */,
-				BA1A3F874B606A2FB29AFD623215764C /* ICommandExecutor.swift */,
-				8066B305EB0E8631FB13E14D9EE17201 /* IRemoteControlModule.swift */,
-				86A6987E5F7623BFF6BECFC13BE32C1C /* IRemoteControlProxy.swift */,
-				805C97BDD5B0D483AC8BFC5708E2C32C /* IRemoteDelegate.swift */,
-				E35584584EFFA4EBEA4C9BE697D0FC6A /* RemoteControlModule.swift */,
-				3E6086D12EB1A8AEF9F3D33F2F7EBD49 /* RemoteModuleError.swift */,
-				DF5743513D2E3E01DF47D11A7F29D09F /* Response.swift */,
-				7BBFDA68618BF403A6EB88FA6250B3A7 /* RoboboJSONEncoder.swift */,
-				221E96C8412F946713038D7895C1D80D /* Status.swift */,
-				2940E7F12542592A5E16F0C4110344E1 /* Value.swift */,
-				11A3471EEF9F319F936F83845D6CC155 /* Support Files */,
+				0C6BEE901E6A58EB805C7D68E2148326 /* robobo-remote-control-ios.modulemap */,
+				10D7777E463C648EB9034CE03A8DB192 /* robobo-remote-control-ios.xcconfig */,
+				699830900985B5924A7D58A4D6495233 /* robobo-remote-control-ios-dummy.m */,
+				B2346FFA0B29C4FBDF5C5A1CB4F3ADF2 /* robobo-remote-control-ios-Info.plist */,
+				2CE21E1079E94AE30421D845BE2A35B0 /* robobo-remote-control-ios-prefix.pch */,
+				789562BB8C5FB42EFAB29E268FF396B0 /* robobo-remote-control-ios-umbrella.h */,
 			);
-			name = "robobo-remote-control-ios";
-			path = "robobo-remote-control-ios";
+			name = "Support Files";
+			path = "../Target Support Files/robobo-remote-control-ios";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -432,6 +409,29 @@
 				16B3E9D8816E27E65996C08B88EE2A82 /* Products */,
 				4B10D41D609901798C8BEF7361CD8ABB /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		E81A147DE4A6E7675C5C90A20B5DA891 /* robobo-remote-control-ios */ = {
+			isa = PBXGroup;
+			children = (
+				AAA7D225DA525FAD428AF67502DD3FCE /* CommandQueue.swift */,
+				F77FFE32556409F6ABB704CAAE9A5BE8 /* CommandQueueProcessor.swift */,
+				75E5BA923E3AA9A5CBAB83E81727BD38 /* CommandSanitizer.swift */,
+				CFB648AC38D3A32B2A2973C0ADF3E6A9 /* ICommandExecutor.swift */,
+				6CE7CDCD4190748BAF76E5FAAAB29BC2 /* IRemoteControlModule.swift */,
+				42D4B5B4F74D092EABB1DEF92C659C2F /* IRemoteControlProxy.swift */,
+				E55FBEA343DB81B1F9F32CA18D1B5DC2 /* IRemoteDelegate.swift */,
+				916ABE8849236B33E3E706842A191DB2 /* RemoteCommand.swift */,
+				4745D878AB597EC57F131E5274260757 /* RemoteControlModule.swift */,
+				6472010E9E789BC53C6AEA8CCF05755A /* RemoteModuleError.swift */,
+				CC3482B163B4036C4CCEFA5F9FF8351E /* Response.swift */,
+				1C3DFE53BE9AD2D452CACC47CA8CB63B /* RoboboJSONEncoder.swift */,
+				38A3302A5EDA0B6F74F002B6F68BAB51 /* Status.swift */,
+				887D6F8C694C16DCC7F25D0FC20AE817 /* Value.swift */,
+				B6C2213F3F56B5D28C64D9CC3ACB2664 /* Support Files */,
+			);
+			name = "robobo-remote-control-ios";
+			path = "robobo-remote-control-ios";
 			sourceTree = "<group>";
 		};
 		F4C3A2F9F7CEB206848E8DB806F3223A /* Pod */ = {
@@ -516,7 +516,7 @@
 			buildConfigurationList = AE622ADC42E0877AA78E332A37295EEC /* Build configuration list for PBXNativeTarget "robobo-remote-control-ios" */;
 			buildPhases = (
 				0C8198A7CAD390D8862EE2667AD9ADBD /* Headers */,
-				2DC28A82D8491F9A8DB745F15B612F3D /* Sources */,
+				708FDC059DE3AB1737BA8F4FE15F388C /* Sources */,
 				AFDE32F4760839B1F0EDBE2D2144A1B4 /* Frameworks */,
 				E8D9B0199ABF9E165CE54F421AFFBE2E /* Resources */,
 			);
@@ -669,33 +669,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DC28A82D8491F9A8DB745F15B612F3D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				19EDA09FEBAAE5EF1721D09CDDE5C43E /* Command.swift in Sources */,
-				697073B5F5C6BA8698D783DF5B28551F /* CommandQueue.swift in Sources */,
-				F536A672A04ED6F586F7EBA6AB731719 /* CommandQueueProcessor.swift in Sources */,
-				E9A18755E408BA3274477EAA0C2AC2BF /* CommandSanitizer.swift in Sources */,
-				45835C03A9120F332484A3EB6F0719BA /* ICommandExecutor.swift in Sources */,
-				5D53B61C15049461D42F4F9E534AF8F4 /* IRemoteControlModule.swift in Sources */,
-				37732269F96AA827AABD76A61A772034 /* IRemoteControlProxy.swift in Sources */,
-				8C8A7FE624D9439AD216B7A9BA60404C /* IRemoteDelegate.swift in Sources */,
-				316C20D90921A03A3BBDAFA587004D4B /* RemoteControlModule.swift in Sources */,
-				25867725C19C353E1D9CA46C063425E0 /* RemoteModuleError.swift in Sources */,
-				1BE5C6341FC2435C99E291FD58F595DD /* Response.swift in Sources */,
-				E619D7A0C04736D1D66C1069C08E65D9 /* robobo-remote-control-ios-dummy.m in Sources */,
-				336F806B05C34C417E71B5FAE1E1B7F9 /* RoboboJSONEncoder.swift in Sources */,
-				C9427C28C5B980549934D3D241FC79F4 /* Status.swift in Sources */,
-				55266B1F616A1299D2CB2973228AF19C /* Value.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4E4DB6C111C67A52BDFC248CEB797E9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E7954BD15ADA269A7BCAF246B45ACDFD /* Pods-robobo-speech-ios_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708FDC059DE3AB1737BA8F4FE15F388C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCD5F84206CCCEA710C987D2B34E4DE /* CommandQueue.swift in Sources */,
+				0A1E6981AB501A460C5384CD49DE3FB5 /* CommandQueueProcessor.swift in Sources */,
+				9A132D832492AECACEEA5253D415708E /* CommandSanitizer.swift in Sources */,
+				BD342C0865DE8D61DDE5C127010A613F /* ICommandExecutor.swift in Sources */,
+				269006EED8688BA8AA229773CD73E23C /* IRemoteControlModule.swift in Sources */,
+				A0B6433D72181BE58E33595BF4D90D6F /* IRemoteControlProxy.swift in Sources */,
+				CF39DB19D34069DFAE0D1058C82549AF /* IRemoteDelegate.swift in Sources */,
+				04927F5C3E7AAD1FADD4C2B5C9FAD656 /* RemoteCommand.swift in Sources */,
+				B2FD40ADDC231364072AAA461C2444BA /* RemoteControlModule.swift in Sources */,
+				B1AC51BB6D4F4799CE02681B61F1B43F /* RemoteModuleError.swift in Sources */,
+				E5D53FDD688A92ED18AC9E5647037F3C /* Response.swift in Sources */,
+				2357C98BF67E8D95C60F1AB8503DB57C /* robobo-remote-control-ios-dummy.m in Sources */,
+				AF606463AF7D9193B364643FCF01E09C /* RoboboJSONEncoder.swift in Sources */,
+				95CD847D76036B15786BD63830A70C10 /* Status.swift in Sources */,
+				F08CE197BD979253553E6D59864005DE /* Value.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1070,7 +1070,7 @@
 		};
 		782DA74646397D98B722F8ED2E936555 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D30A3346964EBF04A63D09372FA630DF /* robobo-remote-control-ios.xcconfig */;
+			baseConfigurationReference = 10D7777E463C648EB9034CE03A8DB192 /* robobo-remote-control-ios.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1200,7 +1200,7 @@
 		};
 		F257A2EC4F47AA1F5726D02A932378FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D30A3346964EBF04A63D09372FA630DF /* robobo-remote-control-ios.xcconfig */;
+			baseConfigurationReference = 10D7777E463C648EB9034CE03A8DB192 /* robobo-remote-control-ios.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
