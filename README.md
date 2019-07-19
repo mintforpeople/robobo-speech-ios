@@ -1,8 +1,10 @@
 # robobo-speech-ios
 
+<!--
 [![Version](https://img.shields.io/cocoapods/v/robobo-speech-ios.svg?style=flat)](https://cocoapods.org/pods/robobo-speech-ios)
 [![License](https://img.shields.io/cocoapods/l/robobo-speech-ios.svg?style=flat)](https://cocoapods.org/pods/robobo-speech-ios)
 [![Platform](https://img.shields.io/cocoapods/p/robobo-speech-ios.svg?style=flat)](https://cocoapods.org/pods/robobo-speech-ios)
+-->
 
 ## Example
 
