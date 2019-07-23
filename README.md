@@ -6,6 +6,8 @@
 [![Platform](https://img.shields.io/cocoapods/p/robobo-speech-ios.svg?style=flat)](https://cocoapods.org/pods/robobo-speech-ios)
 -->
 
+The speech library provides an easy interface for accessing the speech capabilities of the smartphone. This library contains the Speech production module that gives to the robot the capacity to talk.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
