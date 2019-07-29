@@ -49,7 +49,7 @@ class ViewController: UIViewController, RoboboManagerDelegate {
 ````
 ## Requirements
 
-This module depends on robobo-framework-ios-pod and robobo-remote-control-ios, add it to your podfile as follows:
+This module depends on robobo-framework-ios-pod and robobo-remote-control-ios, add them to your podfile as follows:
 
 ```ruby
 pod 'robobo-framework-ios-pod','~>0.1.0'
