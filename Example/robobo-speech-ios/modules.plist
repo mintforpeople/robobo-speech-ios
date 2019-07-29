@@ -4,7 +4,7 @@
 <dict>
 	<key>1.IRemoteControlModule</key>
 	<string>robobo_remote_control_ios.RemoteControlModule</string>
-	<key>4.ISpeechProductionModule</key>
+	<key>2.ISpeechProductionModule</key>
 	<string>robobo_speech_ios.SpeechProductionModuleImplementation</string>
 </dict>
 </plist>

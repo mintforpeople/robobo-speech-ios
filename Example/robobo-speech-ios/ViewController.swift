@@ -34,7 +34,7 @@ class ViewController: UIViewController, RoboboManagerDelegate {
     var speechModule :ISpeechProductionModule!
     var remote :IRemoteControlModule!
     var proxy: ProxyTest!
-    var text :String = "Los robots del futuro serán inteligentes,o sea, podrán realizar diferentes tareas en plan de forma autónoma. Actualmente, los estudiantes y todos los que quieran estar preparados para este futuro próximo, deberían entender cómo funciona este nuevo tipo de robótica. Por lo tanto, el futuro de la robótica está en la educación."
+    var text :String = "Robobo combines a simple mobile base with your smartphone to create the next generation of educational robots. The Robobo base is the body while your smartphone is the brain."
     override func viewDidLoad() {
         super.viewDidLoad()
         manager = RoboboManager()
@@ -53,12 +53,13 @@ class ViewController: UIViewController, RoboboManagerDelegate {
         }
         
         remote.registerRemoteControlProxy(proxy)
-        var args: [String:String] = [:]
-        args["text"]=text
+        
+        //var args: [String:String] = [:]
+        //args["text"]=text
         //var c: Command = Command("TALK",0,args)
         //remote.queueCommand(c)
+        
         speechModule.setLanguage("en_US")
-        speechModule.sayText("test primero",.priority_low)
         speechModule.sayText(text, .priority_low)
         
     }
